@@ -21,12 +21,16 @@ Tested with eZ Publish Community Project 2018.06
 Features
 ===========================
 
-1. Added full copy of current deprecated pagelayout.css into this separate design extension and not modified in any way. This provides for the following two features.
+1. Added full copy of current default admin pagelayout.css into this separate design extension and not modified in any way. This provides for the following two features.
 1.1 Style+Image Additions: Add BC eZ Logo to Admin Login Pagelayout
 1.2 Add BC eZ Logo to Admin Pagelayout Header
 
-2. Added full copy of current deprecated file, admin2/templates/page_copyright.tpl customized to contain much less offending branding in the footer of every admin page view.
+2. Added full copy of current file, admin2/templates/page_copyright.tpl customized to contain much less offending branding in the footer of every admin page view.
 2.1 Branding retained: Powered by eZ Publish legacy (bold, orange text color). For more information see ezinfo/about. (linked)
+
+3. Added full copy of current file, settings/dashboard.ini.append customized to remove the community_activity setting entry from loading a related template with excessive branding which eventually broke and no one bothered to fix it since the source of the community activity was discontinued silently.
+3.1 Branding removed: share.ez.no community activity dashboard module/view template which had been abadoned. This leaves the administrator users with less distractions and runtime boot errors overall.
+
 
 Usage
 ===========================
