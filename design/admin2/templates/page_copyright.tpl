@@ -1,0 +1,1 @@
+<div align="center"><br /><p>{'Powered by <span class="edition-info">%edition</span>. For more information see <a href=%about_link>ezinfo/about</a>.'|i18n( 'design/admin/page_copyright',, hash( '%edition', fetch( 'setup', 'edition' ), '%about_link', "/ezinfo/about"|ezurl ) )}</p></div>

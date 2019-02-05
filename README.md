@@ -15,16 +15,18 @@ Requirements
 
 This extension is now compatible and tested with eZ Publish 5.x+ (Legacy) and PHP 5.4
 
-Tested with eZ Publish Community Project 2014.07 and 2013.05
+Tested with eZ Publish Community Project 2018.06
 
 
 Features
 ===========================
 
-- Added full copy of current deprecated pagelayout.css into this separate design extension and not modified in any way. This provides for the following two features.
--- Style+Image Additions: Add BC eZ Logo to Admin Login Pagelayout
--- Add BC eZ Logo to Admin Pagelayout Header
+1. Added full copy of current deprecated pagelayout.css into this separate design extension and not modified in any way. This provides for the following two features.
+1.1 Style+Image Additions: Add BC eZ Logo to Admin Login Pagelayout
+1.2 Add BC eZ Logo to Admin Pagelayout Header
 
+2. Added full copy of current deprecated file, admin2/templates/page_copyright.tpl customized to contain much less offending branding in the footer of every admin page view.
+2.1 Branding retained: Powered by eZ Publish legacy (bold, orange text color). For more information see ezinfo/about. (linked)
 
 Usage
 ===========================
