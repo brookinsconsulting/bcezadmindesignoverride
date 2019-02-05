@@ -1,0 +1,24 @@
+{
+    "name": "brookinsconsulting/bcezadmindesignoverride",
+    "description": "eZ Publish Legacy extension which provides a simple design override for the default eZ Publish Legacy Administration Design",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "design", "site", "website", "override", "css", "images" ],
+    "homepage": "https://bitbucket.org/brookinsconsulting/bcezadmindesignoverride",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name" : "Brookins Consulting",
+            "homepage": "http://brookinsconsulting.com",
+            "email": "info@brookinsconsulting.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "bcezadmindesignoverride"
+    }
+}
