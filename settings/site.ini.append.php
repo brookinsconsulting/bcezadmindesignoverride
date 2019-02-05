@@ -1,7 +1,7 @@
 <?php /*
 
-[TemplateSettings]
-ExtensionAutoloadPath[]=bcezadmindesignoverride
+# [TemplateSettings]
+# ExtensionAutoloadPath[]=bcezadmindesignoverride
 
 # [RegionalSettings]
 # TranslationExtensions[]=bcezadmindesignoverride
