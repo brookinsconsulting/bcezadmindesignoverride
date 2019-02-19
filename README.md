@@ -31,6 +31,12 @@ Features
 3. Added full copy of current file, settings/dashboard.ini.append customized to remove the community_activity setting entry from loading a related template with excessive branding which eventually broke and no one bothered to fix it since the source of the community activity was discontinued silently.
 3.1 Branding removed: share.ez.no community activity dashboard module/view template which had been abadoned. This leaves the administrator users with less distractions and runtime boot errors overall.
 
+4. Added full copy of current files, admin/templates/user/login.tpl and admin2/templates/user/login.tpl and admin2/templates/loginpagelayout.tpl and admin/templates/loginpagelayout.tpl customized to remove undesired text branding for admin login pagelayout.
+4.1 Branding removed: eZ Systems copyright and needless linkage. This leaves the administrator users focused and with greater security.
+
+5. Added a rich implementation of favicon support accross several hardward and browser platforms. This ensures your admin stands out over other plain defaulting installations.
+5.1 Branding removed: Replaced default eZ Systems' eZ Publish admin favicon with BC Branded favicons for many more platforms than supported by default. This increases positive branding.
+
 
 Usage
 ===========================
